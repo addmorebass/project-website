@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "HabboFont";
+  src: url("HabboFont.ttf") format("truetype");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "HabboFont", sans-serif;
+  font-size: 50px;
+  padding: 10px;
+  height: 70px;
+  background-color: beige;
+}
+
+.menu {
+  text-decoration: none;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-right: 80px;
+}
+
+.menu-items li {
+  list-style-type: none;
+}
+
+.menu-items a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-items a:hover {
+  text-decoration: none;
+  color: gray;
+}
