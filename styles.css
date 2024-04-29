@@ -165,3 +165,52 @@ body {
   font-size: 18px;
   font-style: normal;
 }
+
+.cta-box {
+  margin: 100px;
+  padding: 40px 100px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  border-radius: 9px;
+  width: 1200px;
+}
+
+.cta-section {
+  display: flex;
+  justify-content: center;
+}
+
+.cta-header {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.cta-subheading {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.cta-right {
+  display: flex;
+  align-items: center;
+}
+
+.cta-button {
+  border-radius: 5px;
+  border: 2px solid white;
+  text-decoration: none;
+  color: white;
+  padding: 2px 20px;
+  font-size: 18px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 40px;
+  font-weight: 300px;
+}
